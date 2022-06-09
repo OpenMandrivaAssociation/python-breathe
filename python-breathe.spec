@@ -28,6 +28,5 @@ render Doxygen xml output.
 
 %files
 %{_bindir}/breathe-apidoc
-%{python_sitelib}/breathe-%{version}-py*.*.egg-info/PKG-INFO
 %{python_sitelib}/breathe-%{version}-py*.*.egg-info
 %{python_sitelib}/breathe/
