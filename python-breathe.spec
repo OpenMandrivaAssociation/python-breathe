@@ -5,6 +5,7 @@ Name:		python-%{module}
 Version:	4.33.1
 Release:	1
 Source0:	https://files.pythonhosted.org/packages/source/b/breathe/breathe-%{version}.tar.gz
+Patch0:   breathe-4.33.1-fix-required-sphinx-version.patch
 License:	MIT
 Group:		Development/Python
 Url:		https://pypi.org/project/breathe/
