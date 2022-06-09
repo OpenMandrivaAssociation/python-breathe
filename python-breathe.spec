@@ -11,6 +11,7 @@ Url:		https://pypi.org/project/breathe/
 BuildArch:	noarch
 BuildRequires:	pkgconfig(python)
 BuildRequires:  python3dist(setuptools)
+BuildRequires:  python3dist(sphinx)
 
 %description
 Breathe is an extension to reStructuredText and Sphinx to be able to read and
@@ -27,6 +28,5 @@ render Doxygen xml output.
 
 %files
 %{_bindir}/breathe-apidoc
-%{python_sitelib}/breathe-%{version}-py*.*.egg-info/PKG-INFO
 %{python_sitelib}/breathe-%{version}-py*.*.egg-info
 %{python_sitelib}/breathe/
