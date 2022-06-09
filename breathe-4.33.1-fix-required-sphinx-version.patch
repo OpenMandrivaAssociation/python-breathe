@@ -1,0 +1,12 @@
+diff -uraN breathe-4.33.1/setup.py omv-breathe-4.33.1/setup.py
+--- breathe-4.33.1/setup.py	2022-02-14 18:08:21.000000000 +0100
++++ omv-breathe-4.33.1/setup.py	2022-06-10 01:30:52.342107214 +0200
+@@ -17,7 +17,7 @@
+  render `Doxygen <http://www.doxygen.org>`__ xml output.
+ """
+ 
+-requires = ["Sphinx>=3.0,<5", "docutils>=0.12"]
++requires = ["Sphinx>=3.0,<5.1", "docutils>=0.12"]
+ 
+ if sys.version_info < (3, 6):
+     print("ERROR: Sphinx requires at least Python 3.6 to run.")
