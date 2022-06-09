@@ -11,6 +11,7 @@ Url:		https://pypi.org/project/breathe/
 BuildArch:	noarch
 BuildRequires:	pkgconfig(python)
 BuildRequires:  python3dist(setuptools)
+BuildRequires:  python3dist(sphinx)
 
 %description
 Breathe is an extension to reStructuredText and Sphinx to be able to read and
