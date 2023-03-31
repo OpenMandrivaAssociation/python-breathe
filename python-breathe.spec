@@ -3,7 +3,7 @@
 Summary:	Extension to reStructuredText and Sphinx for working with Doxygen xml output
 Name:		python-%{module}
 Version:	4.34.0
-Release:	2
+Release:	3
 Source0:	https://files.pythonhosted.org/packages/source/b/breathe/breathe-%{version}.tar.gz
 Patch0:		breathe-4.34.0-sphinx6.patch
 License:	MIT
