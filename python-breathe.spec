@@ -1,11 +1,8 @@
-%define module breathe
-
 Summary:	Extension to reStructuredText and Sphinx for working with Doxygen xml output
-Name:		python-%{module}
+Name:		python-breathe
 Version:	4.35.0
 Release:	1
 Source0:	https://files.pythonhosted.org/packages/source/b/breathe/breathe-%{version}.tar.gz
-Patch0:		breathe-4.34.0-sphinx6.patch
 License:	MIT
 Group:		Development/Python
 Url:		https://pypi.org/project/breathe/
@@ -20,7 +17,7 @@ Breathe is an extension to reStructuredText and Sphinx to be able to read and
 render Doxygen xml output.
 
 %prep
-%autosetup -p1 -n %{module}-%{version}
+%autosetup -p1 -n breathe-%{version}
 
 %build
 %py_build
