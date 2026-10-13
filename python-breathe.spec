@@ -1,13 +1,13 @@
 Summary:	Extension to reStructuredText and Sphinx for working with Doxygen xml output
 Name:		python-breathe
 Version:	4.36.0
-Release:	1
+Release:	2
 Source0:	https://files.pythonhosted.org/packages/source/b/breathe/breathe-%{version}.tar.gz
 License:	MIT
 Group:		Development/Python
 Url:		https://pypi.org/project/breathe/
 BuildArch:	noarch
-BuildRequires:	pkgconfig(python)
+BuildRequires:	pkgconfig(python3)
 BuildRequires:	python%{pyver}dist(setuptools)
 BuildRequires:	python%{pyver}dist(sphinx)
 BuildRequires:	python%{pyver}dist(pip)
